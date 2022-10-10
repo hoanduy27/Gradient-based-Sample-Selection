@@ -1,4 +1,3 @@
-#!/usr/bin/bash
 results="./results/permuted_Mnist/"
 MNIST_PERM="--n_layers 2 --n_hiddens 100 --data_path ./data/ --save_path $results --batch_size 10 --log_every 10 --samples_per_task 1000 --data_file mnist_permutations.pt --cuda no  --tasks_to_preserve 10"
 

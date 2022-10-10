@@ -1,8 +1,5 @@
-#!/usr/bin/bash
-
-
 results="./results/cifar10"
-CIFAR_10i="--n_layers 2 --n_hiddens 100 --data_path ./data/ --save_path $results --batch_size 10 --log_every 10 --samples_per_task 10000 --data_file cifar10.pt   --tasks_to_preserve 5        --cuda yes "
+CIFAR_10i="--n_layers 2 --n_hiddens 100 --data_path ./data/ --save_path $results --batch_size 10 --log_every 10 --samples_per_task 2000 --data_file cifar10.pt   --tasks_to_preserve 5        --cuda yes "
 
 mkdir $results
 MY_PYTHON="python"

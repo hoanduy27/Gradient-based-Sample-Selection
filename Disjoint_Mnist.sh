@@ -1,4 +1,3 @@
-#!/usr/bin/bash
 results="./results/Disjoint_Mnist_5/"
 MNIST_Split="--n_layers 2 --n_hiddens 100 --data_path ./data/ --save_path $results --batch_size 10 --log_every 100 --samples_per_task 1000 --data_file mnist_split.pt --cuda no  --tasks_to_preserve 4"
 MY_PYTHON="python"
